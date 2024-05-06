@@ -1,0 +1,16 @@
+{
+  "name": "node-lern",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "node --inspect index.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "mongodb": "^6.5.0",
+    "nodemon": "^3.1.0"
+  }
+}

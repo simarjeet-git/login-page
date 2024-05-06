@@ -1,0 +1,62 @@
+.container{
+    display: grid;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    width: 100vw;
+     
+
+}
+#main{
+    padding: 40px;
+    display: flex;
+    height: 70vh;
+    background-image: linear-gradient(to right, rgb(255, 251, 251),rgb(13, 104, 116));
+    border-radius: 15%;
+transition: '2s';
+     
+}
+.form{
+    display: flex;
+}
+.login{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin: 50px;
+   
+ 
+}
+#signup{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin-left: 20px;
+
+}
+.logo{
+    display: flex;
+}
+.logos{
+    height: 2rem;
+    width: 2rem;
+    padding: 2px;
+
+}
+label{
+    margin-bottom: 5px;
+
+}
+ 
+input{
+    border: none;
+    height: 25px;
+  
+}
+button{
+    border-radius: 20px;
+    border: none;
+    background-image: linear-gradient(to right, rgb(255, 252, 252), rgb(16, 161, 172));
+}
